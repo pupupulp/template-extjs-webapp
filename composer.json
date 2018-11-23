@@ -10,7 +10,9 @@
 		"source": "https://github.com/pupupulp/template-extjs-webapp"
 	},
 	"require": {
-		"php": ">=5.3.7"
+		"php": ">=5.3.7",
+		"guzzlehttp/guzzle": "^6.2",
+		"chriskacerguis/codeigniter-restserver": "^3.0"
 	},
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
