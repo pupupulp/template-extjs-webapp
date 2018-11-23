@@ -10,3 +10,5 @@ application/logs/*
 !sapplication/logs/.htaccess
 
 /vendor
+
+composer.lock
