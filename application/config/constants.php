@@ -83,3 +83,10 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+/**
+ * App defined constants
+ */
+defined('APP_NAME') OR define('APP_NAME', 'App');
+defined('EXTJS_APP_CLASS') OR define('EXTJS_APP_CLASS', 'App');
+defined('EXTJS_DEFAULT_VIEW') OR define('EXTJS_DEFAULT_VIEW', EXTJS_APP_CLASS.'.defaults.LandingPage');

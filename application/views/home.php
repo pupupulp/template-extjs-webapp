@@ -3,10 +3,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>App</title>
+	<title>Web App</title>
 	<meta charset="utf-8">
 
 	<!-- Defined Styles -->
+	<link rel="stylesheet" type="text/css" 
+		href="<?= base_url('public/css/extjs-mod.css') ?>"/>
 	<link rel="stylesheet" type="text/css" 
 		href="<?= base_url('public/css/application.css') ?>"/>
 	
@@ -30,7 +32,7 @@
 	<script type="text/javascript" src="<?= base_url('assets/extjs/packages/ux/classic/ux.js') ?>"></script>
 
 	<!-- Defined Scripts / Dependencies -->
-	<script type="text/javascript" src="<?= base_url('assets/ejs/EJS.js') ?>"></script>
+	<script type="text/javascript"></script>
 
 	<!-- Page Content -->
 	<?= $_page_content ?>
